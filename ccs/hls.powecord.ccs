@@ -1,0 +1,150 @@
+.scrollableContainer-2NUZem {
+    box-shadow: 0 0 12px 4px lime;
+}
+/* HOME BUTTON */
+#app-mount svg.homeIcon-tEMBK1 {
+    color:transparent;
+    background: url('https://to-be-tainted.is-inside.me/8KGQbN6w.gif') no-repeat center/cover;
+    height: 48px;
+    width: 48px;
+}
+.buttonWrapper-1ZmCpA{
+    display: none
+}
+.wordmark-2iDDfm > svg > path{
+    display: none !important;
+}
+.wordmark-2iDDfm::before{
+    content: 'DISCORD';
+    font-size: 16px;
+    Font-Weight: 600;
+    position:fixed;
+    color: #7289DA;
+}
+@keyframes rainbow {
+    from {filter:hue-rotate(0deg)}
+    to {filter:hue-rotate(360deg)}
+} 
+.icon-15YQ1T{
+  color:#7289DA;
+}
+.icon-1_QxNX{
+    color:#ffffff;
+}
+@keyframes pride {
+        100%,0%{
+            color: rgb(255,0,0);
+        }
+        8%{
+            color: rgb(255,127,0);
+        }
+        16%{
+            color: rgb(255,255,0);
+        }
+        25%{
+            color: rgb(127,255,0);
+        }
+        33%{
+            color: rgb(0,255,0);
+        }
+        41%{
+            color: rgb(0,255,127);
+        }
+        50%{
+            color: rgb(0,255,255);
+        }
+        58%{
+            color: rgb(0,127,255);
+        }
+        66%{
+            color: rgb(0,0,255);
+        }
+        75%{
+            color: rgb(127,0,255);
+        }
+        83%{
+            color: rgb(255,0,255);
+        }
+        91%{
+            color: rgb(255,0,127);
+        }
+}
+
+.button-14-BFJ{
+  transition: 0.2s;
+}
+.button-14-BFJ:hover{
+  padding-bottom: 5px;
+  transition: 0.2;
+  animation-name: pride;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+.winButton-iRh8-Z{
+  color: #7289DA; /* <= custom color here*/
+}
+.edited-3sfAzf {
+   color: rgba(0, 0, 0, 0);
+}
+
+.edited-3sfAzf::before {
+    content: "(✏)";
+    margin-left: .3em;
+    font-size: 0.625rem;
+    cursor: pointer;
+    line-height: 1;
+    user-select: none;
+    color: var(--text-muted);
+}
+.powercord-quickcss{
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid var(--background-tertiary);
+  background: var(--background-secondary);
+}
+
+:root .powercord-quickcss-header, :root .powercord-quickcss-footer, .powercord-quickcss .CodeMirror, .powercord-quickcss .CodeMirror-gutters{
+  background: transparent !important;
+}
+/*DARK MODE Colored wumpus images */
+
+
+/* FRIENDS TAB */
+
+
+/* All-Online*/
+.image-1GzsFd[style*='background-image: url("/assets/b5eb2f7d6b3f8cc9b60be4a5dcf28015.svg")'] {
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/All-Friends.svg') !important;
+  background-size: cover;
+}
+
+/* Pending */
+.image-1GzsFd[style*='background-image: url("/assets/b669713872b43ca42333264abf9c858e.svg")'] {
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/pending.svg') !important;
+  background-size: cover;
+}
+
+
+/* Blocked */
+.image-1GzsFd[style*='background-image: url("/assets/8c998f8fb62016fcfb4901e424ff378b.svg")'] {
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/Blocked.svg') !important;
+  background-size: cover;
+}
+/* LIBRARY TAB */
+.theme-dark .emptyWumpus-12J3jI{
+ background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/gaming.svg') !important;
+ background-size: cover;
+}
+.theme-dark .emptyStateImage-2eMp68{
+  background-image: url('https://gistcdn.githack.com/Dries1234/1b10daaeeba58acac90bbf4d7a3dc1ad/raw/7e8acdbc2a9c6e17d2076d01781022238cbe49e9/gaming.svg') !important;
+ background-size: cover;
+}
+.titleChecked-2wg0pd{
+    visibility: hidden;
+}
+.title-3BE6m5::before {
+  visibility: visible;
+    content: "I live on the fucking edge bitch ";
+}
