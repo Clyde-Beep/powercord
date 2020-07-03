@@ -1,3 +1,4 @@
+/*anyone know how they did that with the webhook in #canary-updates*/
 .scrollableContainer-2NUZem {
     box-shadow: 0 0 12px 4px lime;
 }
@@ -147,4 +148,29 @@
 .title-3BE6m5::before {
   visibility: visible;
     content: "I live on the fucking edge bitch ";
+}
+/* user popout - credit to : https://github.com/A-User-s-Discord-Themes/Couve*/
+/*role pills*/
+.role-2irmRk{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    border: none;
+    padding: 5px;
+}
+.roleCircle-3xAZ1j::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background: inherit;
+    opacity: .2;
+    z-index: -1;
+    pointer-events: none;
+}
+/*Bottom*/
+.footer-1fjuF6{
+    border-top: none;
 }
