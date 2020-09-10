@@ -174,3 +174,579 @@
 .footer-1fjuF6{
     border-top: none;
 }
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:19:31 PM
+ * Created by NinjaCatMander#0760 (437491079869104138)
+ * Snippet ID: 753569397058306109
+ */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:21:15 PM
+ * Created by botato#6883 (440990343899643943)
+ * Snippet ID: 753725291008098324
+ */
+/* Give Bots The Same Background as Clyde/Powercord */
+.wrapper-2a6GCs:not(.localBot-GrCgVt)[data-is-author-bot="true"] {
+  background-color: rgba(114, 137, 218, 0.05) !important;
+}
+
+.message-2qnXI6.wrapper-2a6GCs.selected-2P5D_Z:not(.localBot-GrCgVt)[data-is-author-bot="true"],
+.mouse-mode.full-motion .wrapper-2a6GCs[data-is-author-bot="true"]:hover {
+  background-color: rgba(114, 137, 218, 0.1);
+  border: none !important;
+}
+
+.wrapper-2a6GCs:not(.localBot-GrCgVt)[data-is-author-bot="true"]:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+  width: 2px;
+  background-color: #7289da;
+}
+/** 753725291008098324 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:21:34 PM
+ * Created by botato#6883 (440990343899643943)
+ * Snippet ID: 753727408909189262
+ */
+/* Give Bots The Same Background as Clyde/Powercord, but for Burple Replacer users */
+.wrapper-2a6GCs[data-is-author-bot="true"] {
+  background-color: rgba(var(--alt-color), 0.05) !important;
+}
+
+.message-2qnXI6.wrapper-2a6GCs.selected-2P5D_Z[data-is-author-bot="true"],
+.mouse-mode.full-motion .wrapper-2a6GCs[data-is-author-bot="true"]:hover {
+  background-color: rgba(var(--alt-color), 0.1);
+  border: none !important;
+}
+
+.wrapper-2a6GCs[data-is-author-bot="true"]:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  pointer-events: none;
+  width: 2px;
+  background-color: rgba(var(--alt-color));
+}
+/** 753727408909189262 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:22:21 PM
+ * Created by Ashley~#9839 (741748217942769785)
+ * Snippet ID: 752532942240350248
+ */
+.toolbar-1t6TWx{
+  display:none;
+}
+/** 752532942240350248 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:22:47 PM
+ * Created by hellbound#9999 (426147523305144322)
+ * Snippet ID: 752121431101538385
+ */
+.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+    z-index: 1;
+    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#60adff,#4453fc);
+}
+
+
+.headerSpotify-zpWxgT, .topSectionSpotify-1lI0-P {
+    z-index: 1;
+    background-image: url(https://cdn.naila.bot/Discord/playing-background.svg),linear-gradient(to top right,#1db954,#44fc9d);
+}
+/** 752121431101538385 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:23:42 PM
+ * Created by Kanin#0001 (173237945149423619)
+ * Snippet ID: 751027104841465876
+ */
+#guild-header-popout .separator-2I32lJ {
+  display: none;
+}
+#guild-header-popout .focused-3afm-j {
+  background: linear-gradient(45deg, #2b45a2, #7289da);
+}
+#guild-header-popout .focused-3afm-j#guild-header-popout-premium-subscribe {
+  background: linear-gradient(45deg, #f300ea, #ff73fa);
+}
+#guild-header-popout .focused-3afm-j#guild-header-popout-leave {
+  background: linear-gradient(45deg, #aa0e0e, #f04747);
+}
+/** 751027104841465876 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:24:00 PM
+ * Created by Kanin#0001 (173237945149423619)
+ * Snippet ID: 751018906692616222
+ */
+#status-picker .separator-2I32lJ, #status-picker .description-2L932D {
+  display: none;
+}
+#status-picker .focused-3afm-j {
+  background: linear-gradient(45deg, #2b45a2, #7289da);
+}
+#status-picker .focused-3afm-j#status-picker-online {
+  background: linear-gradient(45deg, #21583f, #43b581);
+}
+#status-picker .focused-3afm-j#status-picker-idle {
+  background: linear-gradient(45deg, #915c03, #faa61a);
+}
+#status-picker .focused-3afm-j#status-picker-dnd {
+  background: linear-gradient(45deg, #aa0e0e, #f04747);
+}
+#status-picker .focused-3afm-j#status-picker-invisible {
+  background: linear-gradient(45deg, #3a4047, #747f8d);
+}
+/** 751018906692616222 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:24:09 PM
+ * Created by Winston#0441 (156990761366192128)
+ * Snippet ID: 750542357782593536
+ */
+.header-QKLPzZ .headerInfo-30uryT .flex-1xMQg5 div {
+     transition: 0.2s;
+}
+.header-QKLPzZ .headerInfo-30uryT .flex-1xMQg5 div:hover {
+     transition: 0.2s;
+   transform: translateY(-0.75px);
+}
+/** 750542357782593536 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:24:14 PM
+ * Created by DracoClaw#0065 (341680387979870219)
+ * Snippet ID: 750397351352336605
+ */
+/*Compact Status Menu*/
+.status-1fhblQ, .description-2L932D {
+    display: none;
+}
+.separator-2I32lJ {
+    display: none;
+}
+.mask-1qbNWk.icon-1IxfJ2 {
+    --status-icon-size: 75%;
+    height: var(--status-icon-size); 
+    width: var(--status-icon-size);
+    margin-left: 33%;
+}
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    visibility: visible;
+}
+.item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
+    grid-column: 1/5;
+}
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
+    transition: opacity 0.15s linear 0s;
+}
+.customText-tY5LJn {
+    font-size: 15px;
+}
+/** 750397351352336605 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:25:16 PM
+ * Created by botato#6883 (440990343899643943)
+ * Snippet ID: 749636194144616528
+ */
+@keyframes rainbow-is-pog {
+    from {color: #6666ff;}
+    25%  {color: #0099ff;}
+    50%  {color: #00ff00;}
+    75%  {color: #ff3399;}
+    100% {color: #6666ff;}
+  
+}
+
+div[data-author-id="391401181328572418"] .username-1A8OIy {
+    animation: rainbow-is-pog 10s ease-in-out infinite;
+}
+/** 749636194144616528 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:25:33 PM
+ * Created by hellbound#9999 (426147523305144322)
+ * Snippet ID: 749450242700738572
+ */
+:root {
+   --hover-animation-speed: 0.35s;
+   --seperator-color: var(--background-accent);
+}
+
+.membersWrap-2h-GB4 {
+   min-width: unset;
+   width: 50px;
+   justify-content: right;
+}
+
+.members-1998pB {
+   transition: transform var(--hover-animation-speed);
+}
+
+.membersWrap-2h-GB4:hover .members-1998pB {
+   transform: translateX(-190px);
+}
+
+.membersWrap-2h-GB4 .membersGroup-v9BXpm::after {
+   content: '';
+   width: 30px;
+   height: 2px;
+   border-radius: 50px;
+   background: unset;
+   background-color: var(--seperator-color);
+   position: absolute;
+   left: -36px;
+   top: 29px;
+   margin-left: 0px;
+}
+
+.membersWrap-2h-GB4 .members-1998pB .member-3-YXUe {
+   background-color: unset;
+   margin-left: 0px;
+   transition: margin-left var(--hover-animation-speed);
+}
+
+.membersWrap-2h-GB4:hover .members-1998pB .member-3-YXUe {
+   margin-left: 8px;
+}
+
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm {
+   transform: translateX(-6px);
+}
+
+.membersWrap-2h-GB4 .membersGroup-v9BXpm {
+   cursor: default;
+   transform: translateX(45px);
+   transition: transform var(--hover-animation-speed);
+   overflow: visible;
+}
+/** 749450242700738572 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:34:17 PM
+ * Created by LuckFire#4800 (399416615742996480)
+ * Snippet ID: 749114641396924498
+ */
+body {
+   padding-top: 4px;
+   background: linear-gradient(270deg, #FEAC5E, #C779D0, #4BC0C8);
+}
+#app-mount {
+   height: calc(100% - 4px);
+}
+/** 749114641396924498 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:35:40 PM
+ * Created by Winston#0441 (156990761366192128)
+ * Snippet ID: 748429573850398731
+ */
+/* Good looking titlebar+friends-tital-bar snippet */
+.chat-3bRxxu > .title-3qD0b-, .container-1D34oG > .container-1r6BKw {
+    background-color: var(--background-secondary) !important
+}
+/** 748429573850398731 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:36:02 PM
+ * Created by a cat#7355 (644747939398549504)
+ * Snippet ID: 745795338652221511
+ */
+.menu-3sdvDG {
+    background: rgba(0,0,0,.3);
+    border-radius: 8px;
+    box-shadow: none
+}
+
+.menu-3sdvDG:before {
+    content: "";
+  position: absolute;
+    backdrop-filter: blur(50px) contrast(.8);
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.labelContainer-1BLJti {
+    font-size: 14px;
+    padding: 4px 8px;
+    min-height: 18px;
+    border-radius: 5px;
+}
+
+.colorDefault-2K3EoJ {
+    color: #fff;
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j {
+    background: rgb(10,132,225);
+}
+
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+    background: rgb(0,112,205);
+}
+
+.separator-2I32lJ {
+    border-bottom: 1px solid rgba(255,255,255,.15);
+}
+
+.disabled-1WRMNA {
+    opacity: .2;
+}
+
+.button-F9qN4n {
+    background: none;
+    backdrop-filter: brightness(1.3);
+}
+/** 745795338652221511 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:36:21 PM
+ * Created by botato#6883 (440990343899643943)
+ * Snippet ID: 745729839952297984
+ */
+.emojiUploader-1f0pVx,
+div[class*="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignStretch-DpGPf3 noWrap-3jynv6 marginBottom4-2qk4Hy"] {
+    display: none
+}
+
+.emojiRow-zIc7ZX {
+    display: inline-flex;
+    margin-right: 50px
+}
+/** 745729839952297984 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:36:43 PM
+ * Created by 𝙞𝙡.#9999 (333310482482069514)
+ * Snippet ID: 745503142623313931
+ */
+@keyframes rainbow-is-pog {
+    from {color: #6666ff;}
+    10%  {color: #0099ff;}
+    50%  {color: #00ff00;}
+    75%  {color: #ff3399;}
+    100% {color: #6666ff;}
+}
+
+.powercord-spotify .spotify-buttons .contents-18-Yxp {
+  animation: rainbow-is-pog 10s ease-in-out infinite;
+}
+/** 745503142623313931 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:40:23 PM
+ * Created by botato#6883 (440990343899643943)
+ * Snippet ID: 745043249558716538
+ */
+.profileBadgeVerifiedDeveloper-4WY75k {
+  zoom: 120%;
+  position: relative;
+  top: -2px;
+}
+/** 745043249558716538 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:44:04 PM
+ * Created by andr0id-#0069 (329535901938089995)
+ * Snippet ID: 744949165850755225
+ */
+.scroller-2hZ97C {
+    display: none;
+}
+.header-1TKi98 {
+  display: none;
+}
+.root-1gCeng{
+  top: 120px;
+}
+.footer-2gL1pp {
+  border-radius: 24px;
+  top: 10px;
+}
+/** 744949165850755225 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:44:29 PM
+ * Created by botato#6883 (440990343899643943)
+ * Snippet ID: 744735342166540418
+ */
+.attachButtonPlay-3iJ0mf {
+  color: var(--spotify-color);
+}
+/** 744735342166540418 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:45:07 PM
+ * Created by botato#6883 (440990343899643943)
+ * Snippet ID: 744664885006434484
+ */
+.vp-audioviz-bar {
+  background-color: var(--spotify-color) !important;
+}
+/** 744664885006434484 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:45:26 PM
+ * Created by Ashley~#9839 (741748217942769785)
+ * Snippet ID: 744604855452041302
+ */
+.avatarSpeaking-3MqCHL {
+    box-shadow: inset 0 0 0 2px cyan,inset 0 0 0 3px var(--background-secondary);
+    animation: boxshadow 3s linear infinite;
+}
+
+@keyframes boxshadow {
+    0%, 100% {
+        box-shadow: inset 0 0 0 2px cyan,inset 0 0 0 3px var(--background-secondary);;
+    }
+    25% {
+        box-shadow: inset 0 0 0 2px lime,inset 0 0 0 3px var(--background-secondary);;;
+    }
+    50% {
+       box-shadow: inset 0 0 0 2px yellow,inset 0 0 0 3px var(--background-secondary);;; 
+    }
+    75% {
+        box-shadow: inset 0 0 0 2px red,inset 0 0 0 3px var(--background-secondary);;;
+    }
+}
+/** 744604855452041302 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:45:45 PM
+ * Created by A user#8169 (264062457448759296)
+ * Snippet ID: 744407721889235015
+ */
+.scrollerSpacer-avRLaA{
+    display: none;
+}
+/** 744407721889235015 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:49:34 PM
+ * Created by A user#8169 (264062457448759296)
+ * Snippet ID: 742385439666864190
+ */
+.profileBadges-2vWUYb {
+    flex-wrap: wrap;
+}
+/** 742385439666864190 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:50:30 PM
+ * Created by jayden#1000 (307679776728940555)
+ * Snippet ID: 741473244267413594
+ */
+.button-14-BFJ, .grow-q77ONN, .iconItem-1-bXkn, .closeButton-2GCmT5, .icon-22AiRD, .addButton-1BORrom, .closeButton-1tv5uR {
+  transition: all .2s ease-in-out;
+}
+
+.button-14-BFJ:hover, .iconItem-1-bXkn:hover, .closeButton-2GCmT5:hover, .icon-22AiRD:hover, .addButton-1BORro:hover, .closeButton-1tv5uR:hover {
+    transform: scale(1.2);
+}
+/** 741473244267413594 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:53:25 PM
+ * Created by Deleted User#0000 (456226577798135808)
+ * Snippet ID: 739823600420519959
+ */
+.unread-1xRYoj{
+  display: none;
+}
+/** 739823600420519959 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 6:53:30 PM
+ * Created by Deleted User#0000 (456226577798135808)
+ * Snippet ID: 739928888964022335
+ */
+.mention-1f5kbO{
+    display:none;
+}
+/** 739928888964022335 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 7:04:25 PM
+ * Created by Azariel#0004 (202740603790819328)
+ * Snippet ID: 736923583653347348
+ */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 7:05:33 PM
+ * Created by CorellanStoma#1996 (288362986991648778)
+ * Snippet ID: 735655897669304411
+ */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 7:06:04 PM
+ * Created by emma 🌺#0968 (215067938452013056)
+ * Snippet ID: 735524477064052816
+ */
+.panels-j1Uci_ > .container-3baos1 button[aria-checked="false"], .panels-j1Uci_ > .container-3baos1 button:not([role="switch"]) /* mute/deafen/settings buttons */ {
+  display: none;
+}
+
+.panels-j1Uci_ > .container-3baos1:hover button.button-14-BFJ /* mute/deafen/settings buttons */ {
+  display: block;
+}
+/** 735524477064052816 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 7:08:41 PM
+ * Created by rob#0005 (194474365646012416)
+ * Snippet ID: 733742794979409933
+ */
+.backdrop-1wrmKB {
+    background: none !important;
+    backdrop-filter: blur(10px) brightness(0.5);
+    opacity: 1 !important;
+}
+/** 733742794979409933 */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 7:09:17 PM
+ * Created by Azariel#0004 (202740603790819328)
+ * Snippet ID: 733435219092176938
+ */
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 7:12:55 PM
+ * Created by hellbound#9999 (426147523305144322)
+ * Snippet ID: 732403823057961062
+ */
+.note-QfFU8y textarea,
+.note-3HfJZ5 textarea  {
+   height: 25px !important;
+}
+/** 732403823057961062 */
+
+@import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css'); /* Credit to NFLD99 @ https://github.com/NFLD99/Better-Discord */
+.titleChecked-2wg0pd {
+  font-family: "discord";
+}
+
+/**
+ * Snippet from #css-snippets applied the Sep 10, 2020 at 7:15:32 PM
+ * Created by A user#8169 (264062457448759296)
+ * Snippet ID: 728400749972816014
+ */
+:root .headerStreaming-2FjmGz{
+    background: #593695;
+}
+/** 728400749972816014 */
